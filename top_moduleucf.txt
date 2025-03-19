@@ -1,0 +1,30 @@
+//ngo ra dong co 1
+NET "LED[0]" LOC = "P96";
+NET "LED[1]" LOC = "P97";
+NET "LED[2]" LOC = "P98";
+NET "LED[3]" LOC = "P100";
+//ngo ra dong co 2
+NET "LED_2[0]" LOC = "P102";
+NET "LED_2[1]" LOC = "P103";
+NET "LED_2[2]" LOC = "P104";
+NET "LED_2[3]" LOC = "P2";
+/////xung clock
+NET "CLK" LOC = "P38";
+NET "CS" LOC = "P5";
+//che do hoat dong
+NET "motor_select[0]" LOC = "P79";
+NET "motor_select[1]" LOC = "P80";
+NET "sync_mode" LOC = "P81";
+NET "dir_left" LOC = "P78";
+NET "dir_right" LOC = "P77";
+NET "mode1" LOC = "P76";
+NET "mode2" LOC = "P75";
+///8bit nhan tu esp32
+NET "MOSI[0]" LOC = "P33";
+NET "MOSI[1]" LOC = "P34";
+NET "MOSI[2]" LOC = "P35";
+NET "MOSI[3]" LOC = "P39";
+NET "MOSI[4]" LOC = "P40";
+NET "MOSI[5]" LOC = "P41";
+NET "MOSI[6]" LOC = "P42";
+NET "MOSI[7]" LOC = "P43";
