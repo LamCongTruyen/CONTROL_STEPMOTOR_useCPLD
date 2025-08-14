@@ -1,5 +1,5 @@
 Với dự án môn học này, tôi lựa chọn đề tài điều khiển động cơ bước đa kênh cùng với sự phát triển thêm các chức năng thông minh trên điện thoại.
-
+Video mô phỏng: https://youtu.be/P-EWUewFVew
 
 Một số hình ảnh phần cứng:
 <img width="2560" height="2436" alt="image" src="https://github.com/user-attachments/assets/bcff1440-ba6f-4c67-ba7b-115132b50c62" />
