@@ -1,4 +1,4 @@
-Với dự án môn học này, tôi lựa chọn đề tài điều khiển động cơ bước đa kênh cùng với sự phát triển thêm các chức năng thông minh trên điện thoại.
+Với dự án môn học này, tôi lựa chọn đề tài điều khiển động cơ bước đa kênh cùng với phát triển thêm các chức năng thông minh trên điện thoại.
 Video mô phỏng: https://youtu.be/P-EWUewFVew
 
 Một số hình ảnh phần cứng:
