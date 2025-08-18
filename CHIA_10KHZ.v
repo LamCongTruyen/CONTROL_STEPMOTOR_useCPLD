@@ -5,7 +5,7 @@
 // 
 // Create Date:    16:52:59 03/04/2025 
 // Design Name: 
-// Module Name:    CHIA_1KHZ 
+// Module Name:    CHIA_10KHZ 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -59,7 +59,7 @@ end
 always @ (posedge clk_ht) begin
 	if(threshold != 16'hFFFF) begin
       counter <= counter + 1; 
-      if (counter == threshold) begin  // Chia tần số xuống 1kHz
+      if (counter == threshold) begin 
           counter <= 0;
           clk_10khz <= ~clk_10khz; // Đảo trạng thái xung
       end
@@ -68,3 +68,4 @@ always @ (posedge clk_ht) begin
 		end
 end
 endmodule
+
