@@ -16,8 +16,8 @@ Dự án có app trên điện thoại android giúp hỗ trợ điều khiển 
 
 <img width="312" height="671" alt="image" src="https://github.com/user-attachments/assets/34664371-534c-4476-8c4b-126113a132f5" />
 
-Để điều khiển tốc độ, tôi lựa chọn đọc giá trị adc từ biến trở. Tuy nhiên để giảm chi phí và dùng linh kiện có sẵn thì tôi chọn dùng ESP32 thay thế cho một bộ ADC bình thường. Từ đó sáng tạo thêm chức năng cho dự án, cho phép điều khiển động cơ bằng ứng dụng trên điện thoại mà chương trình chính vẫn là Verilog nằm trên CPLD.
+Để điều khiển tốc độ, tôi lựa chọn đọc giá trị adc từ biến trở. Tuy nhiên để giảm chi phí và dùng linh kiện có sẵn thì tôi chọn dùng ESP32 thay thế cho một bộ ADC bình thường. Từ đó sáng tạo thêm chức năng cho dự án, cho phép điều khiển động cơ bằng ứng dụng trên điện thoại mà chương trình xử lý chính vẫn là Verilog nằm trên CPLD. ESP chỉ thực hiện thao tác mạng và đọc ADC vì trong môn học này Giảng viên yêu cầu không được dùng vi xử lý nhưng tôi có xin phép Giảng viên dùng ESP như bộ ADC để tối ưu chi phí và được sự chấp thuận.
 
 Về phần cứng thì có các nút nhấn điều khiển quay góc (90 độ, 360 độ), quay trái, phải, quay đồng pha và quay ngược pha các động cơ với nhau.
 
-Ở đây là source code cho CPLD, thời gian tới tôi sẽ update thêm các thông tin liên quan đến dự án này
+Ở trên là source code cho CPLD, thời gian tới tôi sẽ update thêm các thông tin liên quan đến dự án này.
