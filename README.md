@@ -1,4 +1,4 @@
-Với dự án môn học năm 4 này, tôi lựa chọn đề tài điều khiển động cơ bước đa kênh cùng với phát triển thêm các chức năng trên điện thoại thay vì chỉ sử dụng phần cứng.
+Với dự án môn học năm 4 này, tôi lựa chọn đề tài điều khiển động cơ bước đa kênh (tối thiểu là 2) cùng với phát triển thêm chức năng điều khiển trên điện thoại thay vì chỉ sử dụng phần cứng.
 Video mô phỏng: https://youtu.be/P-EWUewFVew
 
 Một số hình ảnh phần cứng:
