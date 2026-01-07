@@ -20,4 +20,4 @@ Dự án có app trên điện thoại android giúp hỗ trợ điều khiển 
 
 Về phần cứng thì có các nút nhấn điều khiển quay góc (90 độ, 360 độ), quay trái, phải, quay đồng pha và quay ngược pha các động cơ với nhau.
 
-Ở trên là source code cho CPLD, thời gian tới tôi sẽ update thêm các thông tin liên quan đến dự án này.
+Ở trên là source code cho CPLD, gồm các chương trình Verilog, chương trình đọc ADC và xử lý thao tác với FIREBASE trên ESP32, chương trình layout và logic cho các đối tượng trên ứng dụng điện thoại.
