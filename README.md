@@ -1,6 +1,8 @@
 Với dự án môn học năm 4 này, tôi lựa chọn đề tài điều khiển động cơ bước đa kênh (tối thiểu là 2) cùng với phát triển thêm chức năng điều khiển trên điện thoại thay vì chỉ sử dụng phần cứng.
 Video mô phỏng: https://youtu.be/P-EWUewFVew
 
+Toàn bộ dự án được tôi lên ý tưởng thiết kế từ giao diện ứng dụng trên điện thoại đến cách bố trí phần cứng PCB.
+
 Một số hình ảnh phần cứng:
 <img width="2560" height="2436" alt="image" src="https://github.com/user-attachments/assets/bcff1440-ba6f-4c67-ba7b-115132b50c62" />
 <img width="2560" height="1439" alt="image" src="https://github.com/user-attachments/assets/5b8ac71f-c769-437c-9f8a-99dbd2c48bff" />
