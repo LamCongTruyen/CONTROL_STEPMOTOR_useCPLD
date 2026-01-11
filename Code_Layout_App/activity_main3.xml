@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            tools:ignore="ExtraText">
+
+
+            <TextView
+                android:id="@+id/dongco2"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="500dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/dongcothuhai"
+                android:textColor="#036d59"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/nguocpha"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="232dp"
+                android:backgroundTint="#A5D6A7"
+                android:elevation="15dp"
+                android:stateListAnimator="@drawable/button_elevation"
+                android:text="@string/nguocpha"
+                android:textColor="#036D59"
+                app:cornerRadius="17dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/cungpha"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="232dp"
+                android:layout_marginEnd="36dp"
+                android:backgroundTint="#A5D6A7"
+                android:elevation="15dp"
+                android:stateListAnimator="@drawable/button_elevation"
+                android:text="@string/cungpha"
+                android:textColor="#036D59"
+                app:cornerRadius="17dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dongco1"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="328dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/dongcothunhat"
+                android:textColor="#036d59"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_xoaytrai"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="376dp"
+                android:backgroundTint="#A5D6A7"
+                android:elevation="15dp"
+                android:stateListAnimator="@drawable/button_elevation"
+                android:text="@string/xoaytrai"
+                android:textColor="#036D59"
+                app:cornerRadius="17dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_xoayphai"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="376dp"
+                android:layout_marginEnd="56dp"
+                android:backgroundTint="#A5D6A7"
+                android:elevation="15dp"
+                android:stateListAnimator="@drawable/button_elevation"
+                android:text="@string/xoayphai2"
+                android:textColor="#036D59"
+                app:cornerRadius="17dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_xoayphai_motor2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="548dp"
+                android:layout_marginEnd="56dp"
+                android:backgroundTint="#A5D6A7"
+                android:elevation="15dp"
+                android:stateListAnimator="@drawable/button_elevation"
+                android:text="@string/xoayphai3"
+                android:textColor="#036D59"
+                app:cornerRadius="17dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_xoaytrai_motor2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="552dp"
+                android:backgroundTint="#A5D6A7"
+                android:elevation="15dp"
+                android:stateListAnimator="@drawable/button_elevation"
+                android:text="@string/xoaytrai2"
+                android:textColor="#036D59"
+                app:cornerRadius="17dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/kichhoat"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="232dp"
+                android:backgroundTint="#A5D6A7"
+                android:elevation="15dp"
+                android:stateListAnimator="@drawable/button_elevation"
+                android:text="@string/kichhoat"
+                android:textColor="#036D59"
+                app:cornerRadius="17dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/trang_ch_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/trangchu"
+                android:textColor="#036d59"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            /////////////
+
+            ////////////////
+
+            ////////////////
+
+            ////////////////
+
+            ////////////////
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="198dp"
+                android:layout_height="185dp"
+                android:background="@drawable/stepmotor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="42dp" />
+
+            <Button
+                android:id="@+id/btnlogout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="550dp"
+                android:backgroundTint="#ffffff"
+                android:text="ĐĂNG XUẤT"
+                android:textColor="#036d59"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
