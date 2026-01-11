@@ -12,6 +12,7 @@ Một số hình ảnh phần cứng:
 
 
 Dự án có app trên điện thoại android giúp hỗ trợ điều khiển từ xa và lưu trạng thái ở CSDL thời gian thực FIREBASE.
+
 <img width="373" height="804" alt="image" src="https://github.com/user-attachments/assets/a90c4f60-66d6-4c77-b025-84202d383138" />
 
 <img width="312" height="671" alt="image" src="https://github.com/user-attachments/assets/34664371-534c-4476-8c4b-126113a132f5" />
